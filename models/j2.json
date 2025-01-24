@@ -1,0 +1,295 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "quiz_id": {
+      "type": "number"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    },
+    "trophy_level": {
+      "type": "number"
+    },
+    "accuracy": {
+      "type": "string"
+    },
+    "speed": {
+      "type": "string"
+    },
+    "final_score": {
+      "type": "string"
+    },
+    "negative_score": {
+      "type": "string"
+    },
+    "correct_answers": {
+      "type": "number"
+    },
+    "incorrect_answers": {
+      "type": "number"
+    },
+    "source": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "ended_at": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "better_than": {
+      "type": "number"
+    },
+    "total_questions": {
+      "type": "number"
+    },
+    "rank_text": {
+      "type": "string"
+    },
+    "mistakes_corrected": {
+      "type": "number"
+    },
+    "initial_mistake_count": {
+      "type": "number"
+    },
+    "response_map": {
+      "type": "object",
+      "properties": {
+        "1837": {
+          "type": "number"
+        },
+        "1848": {
+          "type": "number"
+        },
+        "1852": {
+          "type": "number"
+        },
+        "1862": {
+          "type": "number"
+        },
+        "1877": {
+          "type": "number"
+        },
+        "1878": {
+          "type": "number"
+        },
+        "1900": {
+          "type": "number"
+        },
+        "1917": {
+          "type": "number"
+        },
+        "1934": {
+          "type": "number"
+        },
+        "1964": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "1837",
+        "1848",
+        "1852",
+        "1862",
+        "1877",
+        "1878",
+        "1900",
+        "1917",
+        "1934",
+        "1964"
+      ]
+    },
+    "quiz": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "name": {},
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "difficulty_level": {},
+        "topic": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        },
+        "is_published": {
+          "type": "boolean"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number"
+        },
+        "end_time": {
+          "type": "string"
+        },
+        "negative_marks": {
+          "type": "string"
+        },
+        "correct_answer_marks": {
+          "type": "string"
+        },
+        "shuffle": {
+          "type": "boolean"
+        },
+        "show_answers": {
+          "type": "boolean"
+        },
+        "lock_solutions": {
+          "type": "boolean"
+        },
+        "is_form": {
+          "type": "boolean"
+        },
+        "show_mastery_option": {
+          "type": "boolean"
+        },
+        "reading_material": {},
+        "quiz_type": {},
+        "is_custom": {
+          "type": "boolean"
+        },
+        "banner_id": {},
+        "exam_id": {},
+        "show_unanswered": {
+          "type": "boolean"
+        },
+        "ends_at": {
+          "type": "string"
+        },
+        "lives": {},
+        "live_count": {
+          "type": "string"
+        },
+        "coin_count": {
+          "type": "number"
+        },
+        "questions_count": {
+          "type": "number"
+        },
+        "daily_date": {
+          "type": "string"
+        },
+        "max_mistake_count": {
+          "type": "number"
+        },
+        "reading_materials": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "title",
+        "description",
+        "difficulty_level",
+        "topic",
+        "time",
+        "is_published",
+        "created_at",
+        "updated_at",
+        "duration",
+        "end_time",
+        "negative_marks",
+        "correct_answer_marks",
+        "shuffle",
+        "show_answers",
+        "lock_solutions",
+        "is_form",
+        "show_mastery_option",
+        "reading_material",
+        "quiz_type",
+        "is_custom",
+        "banner_id",
+        "exam_id",
+        "show_unanswered",
+        "ends_at",
+        "lives",
+        "live_count",
+        "coin_count",
+        "questions_count",
+        "daily_date",
+        "max_mistake_count",
+        "reading_materials"
+      ]
+    },
+    "next_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pageType": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "pageType"
+        ]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "quiz_id",
+    "user_id",
+    "submitted_at",
+    "created_at",
+    "updated_at",
+    "score",
+    "trophy_level",
+    "accuracy",
+    "speed",
+    "final_score",
+    "negative_score",
+    "correct_answers",
+    "incorrect_answers",
+    "source",
+    "type",
+    "started_at",
+    "ended_at",
+    "duration",
+    "better_than",
+    "total_questions",
+    "rank_text",
+    "mistakes_corrected",
+    "initial_mistake_count",
+    "response_map",
+    "quiz",
+    "next_steps"
+  ]
+}

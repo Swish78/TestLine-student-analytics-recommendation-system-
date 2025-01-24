@@ -1,0 +1,264 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "quiz": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "name": {},
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "difficulty_level": {},
+        "topic": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        },
+        "is_published": {
+          "type": "boolean"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number"
+        },
+        "end_time": {
+          "type": "string"
+        },
+        "negative_marks": {
+          "type": "string"
+        },
+        "correct_answer_marks": {
+          "type": "string"
+        },
+        "shuffle": {
+          "type": "boolean"
+        },
+        "show_answers": {
+          "type": "boolean"
+        },
+        "lock_solutions": {
+          "type": "boolean"
+        },
+        "is_form": {
+          "type": "boolean"
+        },
+        "show_mastery_option": {
+          "type": "boolean"
+        },
+        "quiz_type": {},
+        "is_custom": {
+          "type": "boolean"
+        },
+        "banner_id": {},
+        "exam_id": {},
+        "show_unanswered": {
+          "type": "boolean"
+        },
+        "ends_at": {
+          "type": "string"
+        },
+        "lives": {},
+        "live_count": {
+          "type": "string"
+        },
+        "coin_count": {
+          "type": "number"
+        },
+        "questions_count": {
+          "type": "number"
+        },
+        "daily_date": {
+          "type": "string"
+        },
+        "max_mistake_count": {
+          "type": "number"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "description": {
+                "type": "string"
+              },
+              "difficulty_level": {},
+              "topic": {
+                "type": "string"
+              },
+              "is_published": {
+                "type": "boolean"
+              },
+              "created_at": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              },
+              "detailed_solution": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "is_mandatory": {
+                "type": "boolean"
+              },
+              "show_in_feed": {
+                "type": "boolean"
+              },
+              "pyq_label": {
+                "type": "string"
+              },
+              "topic_id": {
+                "type": "number"
+              },
+              "reading_material_id": {
+                "type": "number"
+              },
+              "fixed_at": {
+                "type": "string"
+              },
+              "fix_summary": {
+                "type": "string"
+              },
+              "created_by": {},
+              "updated_by": {
+                "type": "string"
+              },
+              "quiz_level": {},
+              "question_from": {
+                "type": "string"
+              },
+              "language": {},
+              "photo_url": {
+                "type": "string"
+              },
+              "photo_solution_url": {},
+              "is_saved": {
+                "type": "boolean"
+              },
+              "tag": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "question_id": {
+                      "type": "number"
+                    },
+                    "is_correct": {
+                      "type": "boolean"
+                    },
+                    "created_at": {
+                      "type": "string"
+                    },
+                    "updated_at": {
+                      "type": "string"
+                    },
+                    "unanswered": {
+                      "type": "boolean"
+                    },
+                    "photo_url": {}
+                  },
+                  "required": [
+                    "id",
+                    "description",
+                    "question_id",
+                    "is_correct",
+                    "created_at",
+                    "updated_at",
+                    "unanswered",
+                    "photo_url"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "difficulty_level",
+              "topic",
+              "is_published",
+              "created_at",
+              "updated_at",
+              "is_mandatory",
+              "show_in_feed",
+              "topic_id",
+              "reading_material_id",
+              "created_by",
+              "quiz_level",
+              "question_from",
+              "language",
+              "photo_solution_url",
+              "is_saved",
+              "tag",
+              "options"
+            ]
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "title",
+        "description",
+        "difficulty_level",
+        "topic",
+        "time",
+        "is_published",
+        "created_at",
+        "updated_at",
+        "duration",
+        "end_time",
+        "negative_marks",
+        "correct_answer_marks",
+        "shuffle",
+        "show_answers",
+        "lock_solutions",
+        "is_form",
+        "show_mastery_option",
+        "quiz_type",
+        "is_custom",
+        "banner_id",
+        "exam_id",
+        "show_unanswered",
+        "ends_at",
+        "lives",
+        "live_count",
+        "coin_count",
+        "questions_count",
+        "daily_date",
+        "max_mistake_count",
+        "questions"
+      ]
+    }
+  },
+  "required": [
+    "quiz"
+  ]
+}
